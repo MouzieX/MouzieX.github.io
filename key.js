@@ -10,7 +10,6 @@ document.onkeydown = function () {
 		(event.keyCode == 112) ||
 		(event.keyCode == 113) ||
 		(event.keyCode == 114) ||
-		(event.keyCode == 115) ||
 		(event.keyCode == 116) ||
 		(event.keyCode == 117) ||
 		(event.keyCode == 118) ||
