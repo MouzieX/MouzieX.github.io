@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>hello world</title>
+    <!--标题-->
+    <link rel="stylesheet" href="style.css" />
+    <!--CSS调用-->
+    <script src="key.js"></script>
+    <!--JavaScrpit调用-->
+    <script src="js.js"></script>
+  </head>
+  <body>
+    <div class="searchbox">
+      <form target="_blank" method="get" action="https://cn.bing.com/search?q=">
+        <input
+          class="searchinput"
+          name="q"
+          id="search"
+          type="text"
+          placeholder="Search"
+          onmouseover="over(this)"
+          onmouseleave="leave(this)"
+          onclick="click(this)"
+        />
+      </form>
+    </div>
+    <!--搜索框-->
+    <footer>
+      <div class="footer">
+        <a class="footertext"> &copy; 2023 </a>
+        <a class="footertext" title="Mouzieの个人主页" href="" target="_blank">
+          MOUZIE
+        </a>
+        <a class="footertext"> | </a>
+        <a class="footertext" title="关于" href="" target="_blank" id="about">
+          关于
+        </a>
+      </div>
+    </footer>
+    <!--页脚-->
+  </body>
+</html>
