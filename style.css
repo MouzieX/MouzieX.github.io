@@ -1,0 +1,47 @@
+body {
+  width: 100vw; /*宽*/
+  height: 100vh; /*高*/
+  margin: 0; /*边*/
+  background-image: url(https://bing.shangzhenyang.com/api/1080p);
+  /*链接*/
+  background-size: cover; /*覆盖*/
+  background-position: center; /*中心*/
+  overflow: auto; /*自动滚动条*/
+}
+/*背景*/
+
+a {
+  text-decoration: none; /*下划线:无*/
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+}
+a:link {
+  color: rgba(255, 255, 255, 0.6);
+}
+a:visited {
+  color: rgba(255, 255, 255, 0.6);
+}
+a:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+a:active {
+  color: rgba(255, 255, 255, 0.6);
+}
+/*a内文字的外观*/
+
+input {
+  width: 10vw; /*宽*/
+  height: 10vh; /*高*/
+  outline: none; /*默认边框:无*/
+  border: 0; /*边框宽度:0*/
+  border-radius: 100vw; /*边框圆度:100vw*/
+
+  backdrop-filter: blur(14px); /*框内背景模糊*/ /*依赖于下面的效果*/
+  background-color: rgba(255, 255, 255, 0.35); /*框内背景色*/
+  /*搜索框外貌*/
+  text-align: center;
+  /*框内文字对齐:中心*/
+  transition: 300ms;
+  /*动画时长*/
+}
+/*输入框*/
