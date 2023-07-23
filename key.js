@@ -1,5 +1,6 @@
 document.onkeydown = function () {
 	if (
+		(event.ctrlKey && window.event.keyCode == 65) ||
 		(event.ctrlKey && window.event.keyCode == 70) ||
 		(event.ctrlKey && window.event.keyCode == 71) ||
 		(event.ctrlKey && window.event.keyCode == 79) ||
