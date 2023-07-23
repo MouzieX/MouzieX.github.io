@@ -4,7 +4,6 @@ document.onkeydown = function () {
 		(event.ctrlKey && window.event.keyCode == 71) ||
 		(event.ctrlKey && window.event.keyCode == 79) ||
 		(event.ctrlKey && window.event.keyCode == 80) ||
-		(event.ctrlKey && window.event.keyCode == 82) ||
 		(event.ctrlKey && window.event.keyCode == 83) ||
 		(event.ctrlKey && window.event.keyCode == 85) ||
 		(event.keyCode == 112) ||
